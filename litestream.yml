@@ -1,0 +1,6 @@
+dbs:
+  - path: /var/opt/memos/memos_prod.db
+    replicas:
+      - type: gcs
+        bucket: nyao-memos
+        path: memos_prod.db
